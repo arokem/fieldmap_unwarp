@@ -40,7 +40,7 @@ def epanechnikov(xx, idx=None):
     ans[idx] = 0.75 * (1-xx[idx]**2)
     return ans
 
-def tri_cube(xx, idx):
+def tri_cube(xx, idx=None):
     """ 
     The tri-cube kernel estimated for xx values at indices idx (zero
     elsewhere) 
